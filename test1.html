@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Coffee Slider</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .carousel-item {
+      height: 500px;
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body>
+
+<div id="coffeeCarousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#coffeeCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#coffeeCarousel" data-slide-to="1"></li>
+    <li data-target="#coffeeCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="background-image: url('https://shivu1919.github.io/bean-buzz/coffee.jpg');"></div>
+    <div class="carousel-item" style="background-image: url('https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg');"></div>
+    <div class="carousel-item" style="background-image: url('https://images.pexels.com/photos/374147/pexels-photo-374147.jpeg');"></div>
+  </div>
+
+  <a class="carousel-control-prev" href="#coffeeCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  </a>
+  <a class="carousel-control-next" href="#coffeeCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  </a>
+</div>
+
+
+
+</body>
+</html>
